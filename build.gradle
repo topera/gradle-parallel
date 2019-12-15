@@ -15,6 +15,7 @@ test{
     testLogging {
         showStandardStreams = true
     }
+    dependsOn cleanTest
 }
 
 defaultTasks 'test'
