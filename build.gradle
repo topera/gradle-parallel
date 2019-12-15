@@ -12,6 +12,9 @@ dependencies {
 test{
     minHeapSize = "1g"
     maxHeapSize = "4g" // adjust according to you memory machine
+    testLogging {
+        showStandardStreams = true
+    }
 }
 
 defaultTasks 'test'

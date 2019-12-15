@@ -7,7 +7,7 @@ This hello world shows how to run parallel code on Java 8.
 * In IntelliJ IDEA: File → New → Project From Version Control → Git → put the url of this repository
 
 ## How to test
-* $ ./gradlew --info
+* $ ./gradlew
 * Note: adjust the memory settings changing "maxHeapSize" on build.gradle file 
 
 ## Our program
